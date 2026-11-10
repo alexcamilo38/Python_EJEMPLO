@@ -14,7 +14,7 @@ def buses(n1, n2):
     # Bus 1
     output.append((n1 * " ") + "___________" + ((100 - n1) * " ") + "|")
     output.append((n1 * " ") + "|__|__|__|__|__" + ((97 - n1) * " ") + "|")
-    output.append((n1 * " ") + "| Yilmer       |)" + ((96 - n1) * " ") + "|")
+    output.append((n1 * " ") + "| TransTambo   |)" + ((96 - n1) * " ") + "|")
     output.append((n1 * " ") + "|o------------o|)" + ((95 - n1) * " ") + "|")
 
     output.append(115 * " ")
@@ -22,7 +22,7 @@ def buses(n1, n2):
     # Bus 2
     output.append((n2 * " ") + "_____________" + ((100 - n2) * " ") + "|")
     output.append((n2 * " ") + "|__|__|__|__|__" + ((97 - n2) * " ") + "|")
-    output.append((n2 * " ") + "| Carlos       |)" + ((96 - n2) * " ") + "|")
+    output.append((n2 * " ") + "| Transpubenza |)" + ((96 - n2) * " ") + "|")
     output.append((n2 * " ") + "|o------------o|)" + ((95 - n2) * " ") + "|")
 
     output.append(115 * " ")
@@ -48,8 +48,8 @@ print("\033[H\033[J", end="")
 print(buses(n1, n2))
 
 if n1 > n2:
-    print("\n🏆 ¡Yilmer ganó!")
+    print("\n🏆 TransTambo ganó!")
 elif n2 > n1:
-    print("\n🏆 ¡Carlos ganó!")
+    print("\n🏆 Transpubenza ganó!")
 else:
     print("\n🤝 ¡Empate!")

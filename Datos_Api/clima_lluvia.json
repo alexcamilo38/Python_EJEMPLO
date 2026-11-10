@@ -1,0 +1,9 @@
+{
+    "ciudad": "Popayan",
+    "temperatura_actual": 16.8,
+    "humedad_actual": 75,
+    "probabilidad_lluvia_siguiente_hora": "0%",
+    "prediccion_scikit_learn_va_a_llover": "Si",
+    "unidad_temperatura": "°C",
+    "unidad_humedad": "%"
+}
